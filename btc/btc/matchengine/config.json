@@ -49,7 +49,7 @@
         "prec_show": 8
     }, {
         "name": "UNT",
-        "prec_save": 12,
+        "prec_save": 20,
         "prec_show": 8
     }],
     "markets": [{
@@ -86,13 +86,24 @@
         },
         "min_amount": "0.001"
     }, {
-        "name": "UNTETH",
+        "name": "ETHUNT",
         "stock": {
-            "name": "UNT",
+            "name": "ETH",
             "prec": 8
         },
         "money": {
+            "name": "UNT",
+            "prec": 8
+        },
+        "min_amount": "0.001"
+    }, {
+        "name": "ETHUSDT",
+        "stock": {
             "name": "ETH",
+            "prec": 8
+        },
+        "money": {
+            "name": "USDT",
             "prec": 8
         },
         "min_amount": "0.001"
